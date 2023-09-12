@@ -8,7 +8,7 @@ public class teste : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inteiro =10;
+        inteiro =2;
     }
 
     // Update is called once per frame
