@@ -7,7 +7,12 @@ using UnityEngine.SceneManagement;
 public class ItemColado : MonoBehaviour, IDropHandler
 {
 
+    private AudioSource sound;
 
+    private void Awake()
+    {
+        sound = GetComponent<AudioSource>();
+    }
     public void OnDrop(PointerEventData eventData)
     {
 
@@ -24,7 +29,11 @@ public class ItemColado : MonoBehaviour, IDropHandler
                 DragDrop.coloucerto = true;
                 //Debug.Log("ITEM COLADO COLOUCERTO: " + DragDrop.coloucerto);
                 PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex);
+
+                sound.Play();
             }
+
+
         }
     }
 

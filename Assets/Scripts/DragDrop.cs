@@ -23,6 +23,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public Image imageComponent; // Referência ao componente Image no Inspector
 
+    private AudioSource sound;
+
     private void Awake()
     {
         //!usar o objeto para mover pela tela
@@ -34,6 +36,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         posicaooriginal = rt.anchoredPosition;
 
         coloucerto = false;
+
+        sound = GetComponent<AudioSource>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -48,6 +52,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
         //!habilitar a colisão
         grupo.blocksRaycasts = false;
+
+        sound.Play();
     }
 
     public void OnDrag(PointerEventData eventData)
