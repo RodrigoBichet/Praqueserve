@@ -19,12 +19,13 @@ public class ButtonNext : MonoBehaviour
     {
         //Debug.Log("Entrou no update");
         //Debug.Log("DragDrop: " + DragDrop.coloucerto);
-        string currentScene = SceneManager.GetActiveScene().name;
-        Debug.Log("CURRENT CENA BUTTONNEXT" + currentScene);
+        //string currentScene = SceneManager.GetActiveScene().name;
+        //Debug.Log("CURRENT CENA BUTTONNEXT" + currentScene);
         // Lógica para determinar quando o botão deve aparecer
+
         if (DragDrop.coloucerto == true)
         {
-            Debug.Log("Entrou no if");
+            //Debug.Log("Entrou no if");
             meuBotao.interactable = true; // Ativa o botão
             //PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex); 
             //salva o progresso do usuário e a cena em que parou
@@ -34,21 +35,23 @@ public class ButtonNext : MonoBehaviour
                 PlayerPrefs.Save();
             }
         }
-        if (currentScene == "Gameover")
-        {
-            Debug.Log("CURRENT DO IF LEVELMANAGER" + currentScene);
-            SceneManager.LoadScene("Selectlevel");
-            //!REDIRECIONAR PARA ALGUMA TELA APOS 10 SEGUNDOS
-            //Invoke("ReturnSelectLevel", 10f);
-            //!FUNÇÃO PARA REDIRECIONAR (ir fora de voids e outras funções)
-            // public void ReturnSelectLevel()
-            // {
-            //     SceneManager.LoadScene("Selectlevel");
-            // }
-        }
+
+        //!CASO DO GAME OVER
+        // if (currentScene == "Gameover")
+        // {
+        //     Debug.Log("CURRENT DO IF LEVELMANAGER" + currentScene);
+        //     SceneManager.LoadScene("Selectlevel");
+        //     //!REDIRECIONAR PARA ALGUMA TELA APOS 10 SEGUNDOS
+        //     //Invoke("ReturnSelectLevel", 10f);
+        //     //!FUNÇÃO PARA REDIRECIONAR (ir fora de voids e outras funções)
+        //     // public void ReturnSelectLevel()
+        //     // {
+        //     //     SceneManager.LoadScene("Selectlevel");
+        //     // }
+        // }
         else
         {
-            Debug.Log("DragDrop Entrou no else" + DragDrop.coloucerto);
+            //Debug.Log("DragDrop Entrou no else" + DragDrop.coloucerto);
         }
     }
 

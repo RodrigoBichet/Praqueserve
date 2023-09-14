@@ -73,6 +73,7 @@ crashlytics-build.properties
 
 
 # Editor directories and files
+.vscode/
 /.vscode
 .vscode/*
 !.vscode/extensions.json

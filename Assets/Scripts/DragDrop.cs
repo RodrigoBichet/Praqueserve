@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
@@ -14,6 +16,12 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     //!variável estática de controle de drag com sucesso
     public static bool coloucerto;
+
+    public Sprite[] imagens; // Se for usar um array
+
+    //public List<Sprite> imagens; // Se for usar uma lista
+
+    public Image imageComponent; // Referência ao componente Image no Inspector
 
     private void Awake()
     {
@@ -69,9 +77,15 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         if (coloucerto == false)
         {
             rt.anchoredPosition = posicaooriginal;
+
+        }
+        else
+        {
+            DragDropToReplace();
         }
         //coloucerto = false;
-        Debug.Log("Coloucerto DICRIA: " + coloucerto);
+        //Debug.Log("Coloucerto DICRIA: " + coloucerto);
+
     }
 
     public void OnPointerDown(PointerEventData eventData)
@@ -84,4 +98,18 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     }
 
 
+    public void DragDropToReplace()
+    {
+        if (imagens.Length > 0)
+        {
+            // Escolha uma imagem aleatória (ou por algum critério específico)
+            int indexDaImagem = UnityEngine.Random.Range(0, imagens.Length);
+
+            // Atualize a imagem do componente Image
+            imageComponent.sprite = imagens[indexDaImagem];
+        }
+    }
 }
+
+
+

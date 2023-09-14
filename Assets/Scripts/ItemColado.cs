@@ -22,7 +22,7 @@ public class ItemColado : MonoBehaviour, IDropHandler
                 eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
 
                 DragDrop.coloucerto = true;
-                Debug.Log("ITEM COLADO COLOUCERTO: " + DragDrop.coloucerto);
+                //Debug.Log("ITEM COLADO COLOUCERTO: " + DragDrop.coloucerto);
                 PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex);
             }
         }

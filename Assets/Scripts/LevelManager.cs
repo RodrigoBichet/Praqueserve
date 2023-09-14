@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
 
         SceneManager.LoadScene(PlayerPrefs.GetInt("faseAtual") + 1);
 
+
         //!CASO DO GAME OVER
         // int nextScene = PlayerPrefs.GetInt("faseAtual") + 1;
         // string currentScene = SceneManager.GetActiveScene().name;
