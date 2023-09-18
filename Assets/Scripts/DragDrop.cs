@@ -87,7 +87,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         }
         else
         {
-            DragDropToReplace();
+            //DragDropToReplace();
         }
         //coloucerto = false;
         //Debug.Log("Coloucerto DICRIA: " + coloucerto);

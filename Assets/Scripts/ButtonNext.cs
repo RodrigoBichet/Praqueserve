@@ -8,11 +8,9 @@ public class ButtonNext : MonoBehaviour
     public Button meuBotao;
 
 
-
     void Start()
     {
         meuBotao.interactable = false; // Desativa o botão no início
-
     }
 
     void Update()
