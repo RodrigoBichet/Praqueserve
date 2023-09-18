@@ -87,7 +87,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         }
         else
         {
-            //DragDropToReplace();
+            //Debug.Log("Else Coloucerto DICRIA: " + coloucerto);
         }
         //coloucerto = false;
         //Debug.Log("Coloucerto DICRIA: " + coloucerto);
@@ -104,17 +104,6 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     }
 
 
-    public void DragDropToReplace()
-    {
-        if (imagens.Length > 0)
-        {
-            // Escolha uma imagem aleatória (ou por algum critério específico)
-            int indexDaImagem = UnityEngine.Random.Range(0, imagens.Length);
-
-            // Atualize a imagem do componente Image
-            imageComponent.sprite = imagens[indexDaImagem];
-        }
-    }
 }
 
 

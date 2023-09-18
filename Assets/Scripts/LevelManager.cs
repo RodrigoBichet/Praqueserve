@@ -7,29 +7,29 @@ using UnityEngine.UI;
 public class LevelManager : MonoBehaviour
 {
 
-    public void callLevels()
-    {
+    // public void callLevels()
+    // {
 
-        SceneManager.LoadScene(PlayerPrefs.GetInt("faseAtual") + 1);
+    //     //SceneManager.LoadScene(PlayerPrefs.GetInt("faseAtual") + 1);
 
 
-        //!CASO DO GAME OVER
-        // int nextScene = PlayerPrefs.GetInt("faseAtual") + 1;
-        // string currentScene = SceneManager.GetActiveScene().name;
-        // Debug.Log("CURRENT CENA LEVELMANAGER" + currentScene);
+    //     //!CASO DO GAME OVER
+    //     // int nextScene = PlayerPrefs.GetInt("faseAtual") + 1;
+    //     // string currentScene = SceneManager.GetActiveScene().name;
+    //     // Debug.Log("CURRENT CENA LEVELMANAGER" + currentScene);
 
-        // if (currentScene == "Gameover")
-        // {
-        //     Debug.Log("CURRENT DO IF LEVELMANAGER" + currentScene);
-        //     SceneManager.LoadScene("Selectlevel");
-        // }
+    //     // if (currentScene == "Gameover")
+    //     // {
+    //     //     Debug.Log("CURRENT DO IF LEVELMANAGER" + currentScene);
+    //     //     SceneManager.LoadScene("Selectlevel");
+    //     // }
 
-        // else
-        // {
-        //     Debug.Log("CURRENT DO ELSE LEVELMANAGER" + currentScene);
-        //     SceneManager.LoadScene(nextScene);
-        // }
-    }
+    //     // else
+    //     // {
+    //     //     Debug.Log("CURRENT DO ELSE LEVELMANAGER" + currentScene);
+    //     //     SceneManager.LoadScene(nextScene);
+    //     // }
+    // }
 
 
     public Button[] botões;
