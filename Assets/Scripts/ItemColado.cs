@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,12 +8,14 @@ using UnityEngine.SceneManagement;
 public class ItemColado : MonoBehaviour, IDropHandler
 {
 
-    private AudioSource sound;
+    public AudioSource soundCongratulation;
+    public AudioSource soundWrong;
 
-    private void Awake()
-    {
-        sound = GetComponent<AudioSource>();
-    }
+    // private void Awake()
+    // {
+    //     soundCongratulation = GetComponent<AudioSource>();
+    //     soundWrong = GetComponent<AudioSource>();
+    // }
     public void OnDrop(PointerEventData eventData)
     {
 
@@ -30,7 +33,12 @@ public class ItemColado : MonoBehaviour, IDropHandler
                 //Debug.Log("ITEM COLADO COLOUCERTO: " + DragDrop.coloucerto);
                 PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex);
 
-                sound.Play();
+                soundCongratulation.Play();
+            }
+
+            else
+            {
+                soundWrong.Play();
             }
 
 
