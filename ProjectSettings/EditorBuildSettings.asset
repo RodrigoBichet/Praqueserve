@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Fase04.unity
     guid: 577458ecc42b81a4c834b49effe69d34
   - enabled: 1
+    path: Assets/Scenes/Fase05.unity
+    guid: 6f5a49b4540dfff4599299078c29f0c5
+  - enabled: 1
     path: Assets/Scenes/Gameover.unity
     guid: edc5dc3e5f3b1e140869045e1a1d019d
   m_configObjects: {}
