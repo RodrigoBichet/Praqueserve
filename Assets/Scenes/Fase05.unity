@@ -445,7 +445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!114 &238522048
 MonoBehaviour:
@@ -1025,7 +1024,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 332459499}
 --- !u!222 &332459504
 CanvasRenderer:
@@ -2232,7 +2230,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 755672743}
 --- !u!222 &755672748
 CanvasRenderer:
@@ -2462,11 +2459,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens:
-  - {fileID: 21300000, guid: ef8f54023cf420e45b4aee7836a3aa1e, type: 3}
-  - {fileID: 21300000, guid: 80ae56229c3ed9a4bbbb7bacc865cb2e, type: 3}
-  - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
-  - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 758089909}
 --- !u!222 &758089914
 CanvasRenderer:
@@ -3477,7 +3469,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!222 &808864320
 CanvasRenderer:
@@ -3983,7 +3974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!114 &964657408
 MonoBehaviour:
@@ -4370,7 +4360,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!222 &1017957856
 CanvasRenderer:
@@ -4600,7 +4589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!222 &1050774000
 CanvasRenderer:
@@ -4894,7 +4882,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!114 &1109723286
 MonoBehaviour:
@@ -5135,11 +5122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens:
-  - {fileID: 21300000, guid: ef8f54023cf420e45b4aee7836a3aa1e, type: 3}
-  - {fileID: 21300000, guid: 80ae56229c3ed9a4bbbb7bacc865cb2e, type: 3}
-  - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
-  - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1162960438}
 --- !u!222 &1162960443
 CanvasRenderer:
@@ -5732,7 +5714,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 1198141356}
 --- !u!222 &1198141361
 CanvasRenderer:
@@ -6030,7 +6011,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!114 &1212956453
 MonoBehaviour:
@@ -6723,11 +6703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens:
-  - {fileID: 21300000, guid: ef8f54023cf420e45b4aee7836a3aa1e, type: 3}
-  - {fileID: 21300000, guid: 80ae56229c3ed9a4bbbb7bacc865cb2e, type: 3}
-  - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
-  - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1459662618}
 --- !u!222 &1459662623
 CanvasRenderer:
@@ -7229,7 +7204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 0}
 --- !u!222 &1625986316
 CanvasRenderer:
@@ -7591,7 +7565,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens: []
   imageComponent: {fileID: 1649743444}
 --- !u!222 &1649743449
 CanvasRenderer:
@@ -8495,11 +8468,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a28ac670d9a7af748b0db8ea25248b33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imagens:
-  - {fileID: 21300000, guid: ef8f54023cf420e45b4aee7836a3aa1e, type: 3}
-  - {fileID: 21300000, guid: 80ae56229c3ed9a4bbbb7bacc865cb2e, type: 3}
-  - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
-  - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1940694912}
 --- !u!222 &1940694917
 CanvasRenderer:
