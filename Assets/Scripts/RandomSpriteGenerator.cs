@@ -12,13 +12,14 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Start()
     {
+        List<Sprite> imagensDisponiveis = new List<Sprite>(images); // Cria uma lista das imagens disponíveis
         bool aguaEscolhida = false;
 
         for (int i = 0; i < imageComponents.Length; i++)
         {
-            int indiceImagem = UnityEngine.Random.Range(0, images.Length);
+            int indiceImagem = UnityEngine.Random.Range(0, imagensDisponiveis.Count);
 
-            if (images[indiceImagem] == images[0])
+            if (imagensDisponiveis[indiceImagem] == images[0])
             {
                 imageComponents[i].sprite = images[0]; // Atribui "Agua"
                 imageComponents[i].gameObject.tag = "agua"; // Adiciona a tag "agua"
@@ -26,13 +27,15 @@ public class NewBehaviourScript : MonoBehaviour
             }
             else
             {
-                imageComponents[i].sprite = images[indiceImagem];
+                imageComponents[i].sprite = imagensDisponiveis[indiceImagem];
                 imageComponents[i].gameObject.tag = "tagerrada"; // Adiciona a tag "tagerrada"
             }
 
             // Associa o áudio correto à imagem
             AudioSource audioSource = imageComponents[i].gameObject.GetComponent<AudioSource>();
-            audioSource.clip = audioClips[indiceImagem];
+            audioSource.clip = audioClips[Array.IndexOf(images, imagensDisponiveis[indiceImagem])];
+
+            imagensDisponiveis.RemoveAt(indiceImagem); // Remove a imagem escolhida da lista de opções
         }
 
         // Se a água não foi escolhida ainda, substitui uma imagem aleatória pela "Agua"
