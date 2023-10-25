@@ -25,6 +25,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     private AudioSource sound;
 
+    [SerializeField] private Canvas canvas; //parecido com 'set'
+
     private void Awake()
     {
         //!usar o objeto para mover pela tela
@@ -64,7 +66,11 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         //Debug.Log("On Drag");
 
         //!seta a posicao do obj para a posicao do mouse
-        rt.anchoredPosition += eventData.delta;
+        //rt.anchoredPosition += eventData.delta;
+
+
+        rt.anchoredPosition += eventData.delta / canvas.scaleFactor;
+        Debug.Log("Dragou");
     }
 
     public void OnEndDrag(PointerEventData eventData)

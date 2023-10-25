@@ -1122,6 +1122,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 1983518}
 --- !u!222 &144510432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2389,6 +2390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 11318098}
 --- !u!114 &447090123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2734,6 +2736,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 527638256}
+  canvas: {fileID: 2045354685}
 --- !u!222 &527638261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3301,6 +3304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 1983518}
 --- !u!114 &666017031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3554,6 +3558,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 705910103}
+  canvas: {fileID: 1983518}
 --- !u!222 &705910108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3901,6 +3906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 759660284}
+  canvas: {fileID: 760727269}
 --- !u!222 &759660289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4320,6 +4326,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 766096356}
+  canvas: {fileID: 11318098}
 --- !u!222 &766096361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5360,6 +5367,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 2045354685}
 --- !u!222 &1070810127
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5959,6 +5967,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1215320281}
+  canvas: {fileID: 760727269}
 --- !u!222 &1215320286
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6557,6 +6566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 760727269}
 --- !u!222 &1335152365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6832,6 +6842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 1390355069}
+  canvas: {fileID: 11318098}
 --- !u!222 &1390355074
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7202,6 +7213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 11318098}
 --- !u!222 &1467614481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7846,6 +7858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 1685775495}
+  canvas: {fileID: 2045354685}
 --- !u!222 &1685775500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8315,6 +8328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 1710572633}
+  canvas: {fileID: 1983518}
 --- !u!222 &1710572638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8753,6 +8767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 2045354685}
 --- !u!114 &1977507120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9252,6 +9267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 760727269}
 --- !u!114 &2107201674
 MonoBehaviour:
   m_ObjectHideFlags: 0
