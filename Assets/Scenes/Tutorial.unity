@@ -372,7 +372,7 @@ MonoBehaviour:
   - {fileID: 1268376452, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   - {fileID: -1790757334, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   audioClips:
-  - {fileID: 8300000, guid: 7803f30e330b743448d5638d455eb2f9, type: 3}
+  - {fileID: 8300000, guid: ab25d58de38e1a240afd306156511e2c, type: 3}
   - {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   - {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   - {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
@@ -507,6 +507,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 906441407}
 --- !u!222 &132543833
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1151,7 +1152,7 @@ MonoBehaviour:
   - {fileID: 1268376452, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   - {fileID: -1790757334, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   audioClips:
-  - {fileID: 8300000, guid: 7803f30e330b743448d5638d455eb2f9, type: 3}
+  - {fileID: 8300000, guid: ab25d58de38e1a240afd306156511e2c, type: 3}
   - {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   - {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   - {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
@@ -1286,6 +1287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 909712227}
+  canvas: {fileID: 906441407}
 --- !u!222 &909712232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1597,7 +1599,7 @@ MonoBehaviour:
   - {fileID: 1268376452, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   - {fileID: -1790757334, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   audioClips:
-  - {fileID: 8300000, guid: 7803f30e330b743448d5638d455eb2f9, type: 3}
+  - {fileID: 8300000, guid: ab25d58de38e1a240afd306156511e2c, type: 3}
   - {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   - {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   - {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
@@ -1736,6 +1738,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 58a7733e901abef45b8001765c296ea8, type: 3}
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1055776404}
+  canvas: {fileID: 906441407}
 --- !u!222 &1055776409
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2312,7 +2315,7 @@ MonoBehaviour:
   - {fileID: 1268376452, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   - {fileID: -1790757334, guid: ae4816ac79d6112418b94ee1be893b8c, type: 3}
   audioClips:
-  - {fileID: 8300000, guid: 7803f30e330b743448d5638d455eb2f9, type: 3}
+  - {fileID: 8300000, guid: ab25d58de38e1a240afd306156511e2c, type: 3}
   - {fileID: 8300000, guid: c997463608da69b4cbd8b479ed016b92, type: 3}
   - {fileID: 8300000, guid: d38a9fc4ac6e06144af0cca14032e25c, type: 3}
   - {fileID: 8300000, guid: bb47ee3e97e57db4ea5721f33fa39937, type: 3}
@@ -2447,6 +2450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   imagens: []
   imageComponent: {fileID: 0}
+  canvas: {fileID: 906441407}
 --- !u!114 &1938416872
 MonoBehaviour:
   m_ObjectHideFlags: 0
