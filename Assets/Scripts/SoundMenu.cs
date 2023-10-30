@@ -1,21 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class SoundMenu : MonoBehaviour
 {
-    // Referência para o componente AudioSource
-    public AudioSource audioSource;
+    public AudioManager audioManager;
 
-    void Awake()
+    void Start()
     {
-        // Mantém este objeto ao mudar de cena
-        DontDestroyOnLoad(gameObject);
+        audioManager = AudioManager.Instance;
+        audioManager.PlayAudio();
+    }
 
-        // Obtém a referência para o componente AudioSource
-        audioSource = GetComponent<AudioSource>();
-
-        // Inicia a reprodução da música
-        audioSource.Play();
+    public void ToggleSound()
+    {
+        audioManager.ToggleMute();
     }
 }
