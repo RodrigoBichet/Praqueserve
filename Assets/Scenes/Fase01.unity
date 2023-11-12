@@ -35914,7 +35914,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 04) ACOES
+  m_Text: "Pra que serve? (Fase 04) A\xC7\xD5ES"
 --- !u!222 &359288041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41109,7 +41109,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jogue a pr\xF3xima etapa ou volte para o menu!"
+  m_Text: "Avance para a pr\xF3xima categoria ou volte para o menu!"
 --- !u!222 &433848936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -100873,7 +100873,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 02) ACOES
+  m_Text: "Pra que serve? (Fase 02) A\xC7\xD5ES"
 --- !u!222 &834385760
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -106074,7 +106074,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 03) ACOES
+  m_Text: "Pra que serve? (Fase 03) A\xC7\xD5ES"
 --- !u!222 &892851738
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -111233,7 +111233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 01) ACOES
+  m_Text: "Pra que serve? (Fase 01) A\xC7\xD5ES"
 --- !u!222 &983322089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -174186,7 +174186,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 05) ACOES
+  m_Text: "Pra que serve? (Fase 05) A\xC7\xD5ES"
 --- !u!222 &2068790608
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -179647,7 +179647,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parab\xE9ns voc\xEA completou as a\xE7\xF5es!!"
+  m_Text: "Parab\xE9ns voc\xEA completou a categoria A\xC7\xD5ES!!"
 --- !u!222 &2093530327
 CanvasRenderer:
   m_ObjectHideFlags: 0
