@@ -1317,7 +1317,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 04) COMIDAS
+  m_Text: Pra que serve? (Fase 04) ALIMENTOS
 --- !u!222 &270584170
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1913,14 +1913,12 @@ MonoBehaviour:
   images:
   - {fileID: 1373071056, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 533782533, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
-  - {fileID: 1359314131, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: -1153868753, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1653469674, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1635358932, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 57c19aa3f2b377048ac7cfd482cd6999, type: 3}
-  - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
@@ -2227,7 +2225,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jogue a pr\xF3xima etapa ou volte para o menu!"
+  m_Text: "Avance para a pr\xF3xima categoria ou volte para o menu!"
 --- !u!222 &433848936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2544,7 +2542,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 03) COMIDAS
+  m_Text: Pra que serve? (Fase 03) ALIMENTOS
 --- !u!222 &538936905
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3776,14 +3774,12 @@ MonoBehaviour:
   images:
   - {fileID: 1373071056, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 533782533, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
-  - {fileID: 1359314131, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: -1153868753, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1653469674, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1635358932, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 57c19aa3f2b377048ac7cfd482cd6999, type: 3}
-  - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
@@ -4315,14 +4311,12 @@ MonoBehaviour:
   images:
   - {fileID: 1373071056, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 533782533, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
-  - {fileID: 1359314131, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: -1153868753, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1653469674, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1635358932, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 57c19aa3f2b377048ac7cfd482cd6999, type: 3}
-  - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
@@ -4940,7 +4934,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 01) COMIDAS
+  m_Text: Pra que serve? (Fase 01) ALIMENTOS
 --- !u!222 &882201764
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7697,14 +7691,12 @@ MonoBehaviour:
   images:
   - {fileID: 1373071056, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 533782533, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
-  - {fileID: 1359314131, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: -1153868753, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1653469674, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   - {fileID: 1635358932, guid: 1507f1619e210704aa51e1b8833f9fb5, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 57c19aa3f2b377048ac7cfd482cd6999, type: 3}
-  - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
@@ -9170,7 +9162,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 05) COMIDAS
+  m_Text: Pra que serve? (Fase 05) ALIMENTOS
 --- !u!222 &2068790608
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9249,7 +9241,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parab\xE9ns voc\xEA completou as COMIDAS!!"
+  m_Text: "Parab\xE9ns voc\xEA completou a categoria ALIMENTOS!!"
 --- !u!222 &2093530327
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9377,7 +9369,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Pra que serve? (Fase 02) COMIDAS
+  m_Text: Pra que serve? (Fase 02) ALIMENTOS
 --- !u!222 &2113900488
 CanvasRenderer:
   m_ObjectHideFlags: 0
