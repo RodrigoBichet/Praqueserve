@@ -6,7 +6,7 @@ public class ParticleManager : MonoBehaviour
 {
     void Start()
     {
-        InvokeRepeating("AlternarParticulas", 0f, 7f); // Chama a função a cada 7 segundos
+        InvokeRepeating("AlternarParticulas", 0f, 10f); // Chama a função a cada 7 segundos
     }
 
     void AlternarParticulas()
