@@ -2233,7 +2233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Jogue a pr\xF3xima etapa ou volte para o menu!"
+  m_Text: "Avance para a pr\xF3xima categoria ou volte para o menu!"
 --- !u!222 &433848936
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9398,7 +9398,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Parab\xE9ns voc\xEA completou os DIVERS\xD5ES!!"
+  m_Text: "Parab\xE9ns voc\xEA completou a categoria DIVERS\xD5ES!!"
 --- !u!222 &2093530327
 CanvasRenderer:
   m_ObjectHideFlags: 0
