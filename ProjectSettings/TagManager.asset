@@ -7,6 +7,8 @@ TagManager:
   - agua
   - tagerrada
   - mochila
+  - escova
+  - musica
   layers:
   - Default
   - TransparentFX

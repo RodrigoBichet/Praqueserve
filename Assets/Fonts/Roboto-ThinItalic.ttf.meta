@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 89af806138c33dd44b927c4a5637f420
+guid: d6a54db4873866544a982844e1c42def
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,8 +9,12 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Kenney Rocket
-  fallbackFontReferences: []
+  - Roboto
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 11531a26ee2fcfb46a2c3243c91056ba, type: 3}
+  - {fileID: 12800000, guid: b61d5caba8c84ee4f850b6c01ba08493, type: 3}
+  - {fileID: 12800000, guid: 964acfd98223d5947a31823a841f8244, type: 3}
+  - {fileID: 12800000, guid: 54b6108e41d8b9d4fbc39886cbe5440d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
