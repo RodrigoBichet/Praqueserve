@@ -4,89 +4,62 @@ using UnityEngine;
 
 public class SceneControl : MonoBehaviour
 {
-    public GameObject scene1;
-    public GameObject scene2;
-    public GameObject scene3;
-    public GameObject scene4;
-    public GameObject scene5;
+    public List<GameObject> cenasAleatorias;
+    public GameObject cenaFinal;
 
+    private int cenasVisitadas = 0;
 
     void Start()
     {
-        // Inicialize o jogo com a Cena 1 ativa e a Cena 2 desativada
-        scene1.SetActive(true);
-        scene2.SetActive(false);
-        scene3.SetActive(false);
-        scene4.SetActive(false);
-        scene5.SetActive(false);
+        // Inicialize o jogo com todas as cenas desativadas
+        DesativarTodasCenas();
+
+        // Embaralhar as cenas aleatórias
+        Shuffle(cenasAleatorias);
+
+        // Ativar a primeira cena aleatória
+        IrParaProximaCenaAleatoria();
     }
 
-
-    public void IrParaCena1()
+    public void IrParaProximaCenaAleatoria()
     {
-        AtivarCena(1);
-    }
-    public void IrParaCena2()
-    {
-        AtivarCena(2);
-    }
-
-    public void IrParaCena3()
-    {
-        AtivarCena(3);
-    }
-
-    public void IrParaCena4()
-    {
-        AtivarCena(4);
-    }
-
-    public void IrParaCena5()
-    {
-        AtivarCena(5);
-    }
-
-    // void AtivarCena(int cenaAtiva)
-    // {
-    //     // Desativa todas as cenas
-    //     scene1.SetActive(false);
-    //     scene2.SetActive(false);
-    //     scene3.SetActive(false);
-    //     scene4.SetActive(false);
-    //     scene5.SetActive(false);
-
-    //     // Ativa apenas a cena desejada
-    //     switch (cenaAtiva)
-    //     {
-    //         case 1:
-    //             scene1.SetActive(true);
-    //             break;
-    //         case 2:
-    //             scene2.SetActive(true);
-    //             break;
-    //         case 3:
-    //             scene3.SetActive(true);
-    //             break;
-    //         case 4:
-    //             scene4.SetActive(true);
-    //             break;
-    //         case 5:
-    //             scene5.SetActive(true);
-    //             break;
-    //     }
-    // }
-    void AtivarCena(int cenaAtiva)
-    {
-        // Crie um array para armazenar todas as cenas
-        GameObject[] cenas = { scene1, scene2, scene3, scene4, scene5 };
-
-        // Desativa todas as cenas
-        foreach (var cena in cenas)
+        // Se todas as cenas aleatórias foram visitadas, vá para a cena final
+        if (cenasVisitadas >= 5)
         {
-            cena.SetActive(false);
+            cenaFinal.SetActive(true);
+            DesativarTodasCenas();
+            return;
         }
 
-        // Ativa apenas a cena desejada
-        cenas[cenaAtiva - 1].SetActive(true);
+        // Ativar a próxima cena aleatória ainda não visitada
+        GameObject proximaCena = cenasAleatorias[cenasVisitadas];
+        proximaCena.SetActive(true);
+
+        // Desativar todas as cenas exceto a cena ativa
+        DesativarTodasCenas(proximaCena);
+
+        cenasVisitadas++;
+    }
+
+    // Função para desativar todas as cenas exceto a cena especificada
+    void DesativarTodasCenas(GameObject cenaAtiva = null)
+    {
+        foreach (GameObject cena in cenasAleatorias)
+        {
+            if (cena != cenaAtiva)
+                cena.SetActive(false);
+        }
+    }
+
+    // Função para embaralhar uma lista
+    void Shuffle<T>(List<T> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            int randomIndex = Random.Range(i, list.Count);
+            T temp = list[randomIndex];
+            list[randomIndex] = list[i];
+            list[i] = temp;
+        }
     }
 }

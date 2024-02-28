@@ -18,7 +18,7 @@ public class ButtonTutorial : MonoBehaviour
 
     void AtivarVideoPlayer()
     {
-        // Ativa o VideoPlayer quando o botão é clicado
+        // Ativa o VideoPlayer
         videoPlayer.enabled = true;
 
         // Reproduz o vídeo
