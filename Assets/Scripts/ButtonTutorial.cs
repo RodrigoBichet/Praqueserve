@@ -6,22 +6,43 @@ public class ButtonTutorial : MonoBehaviour
 {
     public Button botao;
     public VideoPlayer videoPlayer;
+    public GameObject screenObject;
+    public GameObject whiteSquareVideo;
+    public GameObject blackSquareVideo;
+    public GameObject buttonBackVideo;
+
 
     void Start()
     {
-        // Desativa o VideoPlayer no início
-        videoPlayer.enabled = false;
+        videoPlayer.loopPointReached += OnVideoEnd;
+        videoPlayer.gameObject.SetActive(false);
+        screenObject.SetActive(false);
+        whiteSquareVideo.gameObject.SetActive(false);
+        blackSquareVideo.gameObject.SetActive(false);
+        buttonBackVideo.gameObject.SetActive(false);
 
-        // Adiciona um listener para o botão
         botao.onClick.AddListener(AtivarVideoPlayer);
     }
 
     void AtivarVideoPlayer()
     {
-        // Ativa o VideoPlayer
-        videoPlayer.enabled = true;
+        videoPlayer.gameObject.SetActive(true);
+        screenObject.SetActive(true);
+        whiteSquareVideo.SetActive(true);
+        blackSquareVideo.SetActive(true);
+        buttonBackVideo.SetActive(true);
 
-        // Reproduz o vídeo
         videoPlayer.Play();
+    }
+
+    void OnVideoEnd(VideoPlayer vp)
+    {
+        // Desativa os elementos quando o vídeo termina
+        videoPlayer.gameObject.SetActive(false);
+        screenObject.SetActive(false);
+        whiteSquareVideo.SetActive(false);
+        blackSquareVideo.SetActive(false);
+        buttonBackVideo.SetActive(false);
+
     }
 }
