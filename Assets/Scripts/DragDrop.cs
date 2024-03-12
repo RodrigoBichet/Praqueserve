@@ -7,22 +7,16 @@ using UnityEngine.UI;
 
 public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-
     private RectTransform rt;
-
     private CanvasGroup grupo;
-
     private Vector2 posicaooriginal;
+    private bool estaArrastando = false; // Variável para controlar se um item está sendo arrastado
+    private static bool outroItemArrastando = false; // Variável estática para verificar se outro item está sendo arrastado
 
     //!variável estática de controle de drag com sucesso
     public static bool coloucerto;
-
     public Sprite[] imagens; // Se for usar um array
-
-    //public List<Sprite> imagens; // Se for usar uma lista
-
     public Image imageComponent; // Referência ao componente Image no Inspector
-
     private AudioSource sound;
 
     [SerializeField] private Canvas canvas; //parecido com 'set'
@@ -31,65 +25,50 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     {
         //!usar o objeto para mover pela tela
         rt = GetComponent<RectTransform>();
-
         grupo = GetComponent<CanvasGroup>();
-
         //!posicao original do objeto
         posicaooriginal = rt.anchoredPosition;
-
         coloucerto = false;
-
         sound = GetComponent<AudioSource>();
     }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
-
-        //começa o arrasto
-        //Debug.Log("Begin Drag");
-
-        //!transparencia
-        grupo.alpha = 0.5f;
-
-        //!habilitar a colisão
-        grupo.blocksRaycasts = false;
-
-        sound.Play();
+        if (!estaArrastando && !outroItemArrastando && !coloucerto) // Verifica se nenhum item está sendo arrastado e nenhum item foi acertado
+        {
+            estaArrastando = true;
+            outroItemArrastando = true;
+            //!transparencia
+            grupo.alpha = 0.5f;
+            //!habilitar a colisão
+            grupo.blocksRaycasts = false;
+            sound.Play();
+        }
     }
 
     public void OnDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
-
         //!arrastando o obj
-        //Debug.Log("On Drag");
-
-        //!seta a posicao do obj para a posicao do mouse
-        //rt.anchoredPosition += eventData.delta;
-
-
-        rt.anchoredPosition += eventData.delta / canvas.scaleFactor;
-        Debug.Log("Dragou");
+        // Verificar se está arrastando antes de atualizar a posição
+        if (estaArrastando)
+        {
+            rt.anchoredPosition += eventData.delta / canvas.scaleFactor;
+            Debug.Log("Dragou");
+        }
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
-
+        estaArrastando = false; // Indica que o arrasto do item terminou
+        outroItemArrastando = false; // Indica que nenhum item está sendo arrastado
         //!acaba de arrastar
-        //Debug.Log("End Drag");
-
         //!transparencia
         grupo.alpha = 1f;
-
         //!desabilitar a colisão
         grupo.blocksRaycasts = true;
-
         if (coloucerto == false)
         {
             rt.anchoredPosition = posicaooriginal;
-
         }
         else
         {
@@ -97,20 +76,11 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         }
         //coloucerto = false;
         //Debug.Log("Coloucerto DICRIA: " + coloucerto);
-
     }
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        //throw new System.NotImplementedException();
-
         //!primeiro somente click
         //Debug.Log("Pointer");
-
     }
-
-
 }
-
-
-
