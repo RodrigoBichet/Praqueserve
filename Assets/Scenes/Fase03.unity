@@ -15545,6 +15545,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 86338578}
   canvas: {fileID: 1516443608}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &86338583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25771,6 +25773,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1983518}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &144510432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31043,6 +31047,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 183918209}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &183918209
 AudioSource:
   m_ObjectHideFlags: 0
@@ -70977,6 +70983,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1234572727}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &296028507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80896,6 +80904,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 307407221}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &307407221
 AudioSource:
   m_ObjectHideFlags: 0
@@ -81497,6 +81507,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 325306796}
   canvas: {fileID: 1516443608}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &325306801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -130923,6 +130935,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 11318098}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &447090123
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145827,6 +145841,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 470546698}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &470546698
 AudioSource:
   m_ObjectHideFlags: 0
@@ -146058,6 +146074,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 502220777}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &502220777
 AudioSource:
   m_ObjectHideFlags: 0
@@ -151521,6 +151539,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 527638256}
   canvas: {fileID: 2045354685}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &527638261
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -171407,6 +171427,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 582391649}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &582391649
 AudioSource:
   m_ObjectHideFlags: 0
@@ -181777,6 +181799,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 613896967}
   canvas: {fileID: 1995359972}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &613896972
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -182091,6 +182115,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 620571017}
   canvas: {fileID: 1050002630}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &620571022
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -191940,6 +191966,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 661655921}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &661655921
 AudioSource:
   m_ObjectHideFlags: 0
@@ -192526,6 +192554,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1983518}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &666017031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192840,6 +192870,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 211541038}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &693551745
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193094,6 +193126,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 705910103}
   canvas: {fileID: 1983518}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &705910108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -193799,6 +193833,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 759660284}
   canvas: {fileID: 760727269}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &759660289
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -199068,6 +199104,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 766096356}
   canvas: {fileID: 11318098}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &766096361
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -224171,6 +224209,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 887645033}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &887645033
 AudioSource:
   m_ObjectHideFlags: 0
@@ -229496,6 +229536,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1050002630}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &901585617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -239765,6 +239807,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 925936528}
   canvas: {fileID: 211541038}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &925936533
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -244813,6 +244857,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 942079122}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &942079122
 AudioSource:
   m_ObjectHideFlags: 0
@@ -259660,6 +259706,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 968678842}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &968678842
 AudioSource:
   m_ObjectHideFlags: 0
@@ -284794,6 +284842,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 211541038}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1061993582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -285033,6 +285083,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 2045354685}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1070810127
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -290189,6 +290241,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1094397440}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1094397440
 AudioSource:
   m_ObjectHideFlags: 0
@@ -325188,6 +325242,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1215320281}
   canvas: {fileID: 760727269}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1215320286
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -325431,6 +325487,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1219376635}
   canvas: {fileID: 1050002630}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1219376640
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -350719,6 +350777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1334719132}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1334719132
 AudioSource:
   m_ObjectHideFlags: 0
@@ -351151,6 +351211,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 760727269}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1335152365
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -356805,6 +356867,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1050002630}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &1376433953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357055,6 +357119,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1995359972}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1381289707
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -357294,6 +357360,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1234572727}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1386551725
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -357533,6 +357601,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 1390355069}
   canvas: {fileID: 11318098}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1390355074
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -363106,6 +363176,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 11318098}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1467614481
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -373848,6 +373920,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1525381859}
   canvas: {fileID: 211541038}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1525381864
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -374620,6 +374694,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1516443608}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &1547946753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374949,6 +375025,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 6886ffe48846dac4e9661a6fc5ad70e3, type: 3}
   imageComponent: {fileID: 1554718430}
   canvas: {fileID: 1234572727}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1554718435
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -375177,6 +375255,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1995359972}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &1561953107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -394883,6 +394963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1620732294}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1620732294
 AudioSource:
   m_ObjectHideFlags: 0
@@ -410299,6 +410381,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 1685775495}
   canvas: {fileID: 2045354685}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1685775500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -410379,6 +410463,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1688733429}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1688733429
 AudioSource:
   m_ObjectHideFlags: 0
@@ -420247,6 +420333,140 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1695293416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1695293417}
+  - component: {fileID: 1695293419}
+  - component: {fileID: 1695293418}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1695293417
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695293416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2126885370}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -93.15936, y: 24}
+  m_SizeDelta: {x: 1659.3518, y: 983.6478}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1695293418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695293416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: HOJE EU TO DEIXANDO VOAR NA CERTEZA QUE TEM OUTRO AMOR
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 178.2
+  m_fontSizeBase: 178.2
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1695293419
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695293416}
+  m_CullTransparentMesh: 1
 --- !u!1 &1704957581
 GameObject:
   m_ObjectHideFlags: 0
@@ -425304,6 +425524,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 1710062162}
   canvas: {fileID: 1995359972}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1710062167
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -425543,6 +425765,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 1710572633}
   canvas: {fileID: 1983518}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1710572638
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -450705,6 +450929,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 1791266323}
   canvas: {fileID: 1234572727}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &1791266328
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -450791,6 +451017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1794477089}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1794477089
 AudioSource:
   m_ObjectHideFlags: 0
@@ -505275,6 +505503,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 1971740376}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &1971740376
 AudioSource:
   m_ObjectHideFlags: 0
@@ -505654,6 +505884,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 2045354685}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &1977507120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -516297,6 +516529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 2047054770}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &2047054770
 AudioSource:
   m_ObjectHideFlags: 0
@@ -531354,6 +531588,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 1516443608}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!222 &2065652610
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -531515,6 +531751,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 2086810796}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &2086810796
 AudioSource:
   m_ObjectHideFlags: 0
@@ -541679,6 +541917,8 @@ MonoBehaviour:
   imagens: []
   imageComponent: {fileID: 0}
   canvas: {fileID: 760727269}
+  legendaText: {fileID: 0}
+  listaLegendas: []
 --- !u!114 &2107201674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -542034,6 +542274,107 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125189492}
   m_CullTransparentMesh: 1
+--- !u!1001 &2126885369
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1067881024213837035, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170756415089425875, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 30f3a70aaeb14754291a4f8d5cb18ab4, type: 3}
+    - target: {fileID: 3261535980098799947, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_Name
+      value: SceneLoader
+      objectReference: {fileID: 0}
+    - target: {fileID: 4810730301374888197, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_Color.b
+      value: 0.4481132
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6085389
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 195.2552
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 195.2552
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 250
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 2582500785509719148, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695293417}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+--- !u!224 &2126885370 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2582500785509719148, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
+  m_PrefabInstance: {fileID: 2126885369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2132442154
 GameObject:
   m_ObjectHideFlags: 0
@@ -547097,6 +547438,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   somBotao: {fileID: 2138815067}
+  fotoDesativada: {fileID: 0}
+  textoAtivar: {fileID: 0}
 --- !u!82 &2138815067
 AudioSource:
   m_ObjectHideFlags: 0
@@ -552269,3 +552612,4 @@ SceneRoots:
   - {fileID: 884658108}
   - {fileID: 2109952650}
   - {fileID: 925903852}
+  - {fileID: 2126885369}
