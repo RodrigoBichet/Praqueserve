@@ -420367,8 +420367,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93.15936, y: 24}
-  m_SizeDelta: {x: 1659.3518, y: 983.6478}
+  m_AnchoredPosition: {x: -12.048, y: 25.347}
+  m_SizeDelta: {x: 1659.3518, y: 652.1024}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1695293418
 MonoBehaviour:
@@ -420390,7 +420390,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: HOJE EU TO DEIXANDO VOAR NA CERTEZA QUE TEM OUTRO AMOR
+  m_text: TESTE fase03
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -542336,15 +542336,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.b
-      value: 0.4481132
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.r
-      value: 0.6085389
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_SizeDelta.x

@@ -61084,15 +61084,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.b
-      value: 0.5801887
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.g
-      value: 0.7735849
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6657936251130428389, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_Color.r
-      value: 0.684487
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7411196644806174032, guid: 312c11e0799eca94d85ac244f23e2ace, type: 3}
       propertyPath: m_SizeDelta.x
@@ -305357,8 +305357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27.982605, y: -35.61438}
-  m_SizeDelta: {x: 1833.1786, y: 1087.908}
+  m_AnchoredPosition: {x: 53.411, y: 26.238}
+  m_SizeDelta: {x: 1833.1786, y: 653.8848}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1993752197
 MonoBehaviour:
@@ -305380,7 +305380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: NO TEMPO DELES PARA BAIXAR ISSO AQUI TA
+  m_text: TESTE fase05
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
