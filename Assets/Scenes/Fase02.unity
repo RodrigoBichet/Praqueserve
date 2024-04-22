@@ -423,14 +423,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &25166280
 AudioSource:
   m_ObjectHideFlags: 0
@@ -556,7 +554,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 25166278}
   canvas: {fileID: 1550613532}
@@ -566,7 +563,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &25166283
 CanvasRenderer:
@@ -24985,6 +24981,81 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &97650093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 97650094}
+  - component: {fileID: 97650096}
+  - component: {fileID: 97650095}
+  m_Layer: 5
+  m_Name: Fundo audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &97650094
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97650093}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000799, y: 1.0000799, z: 1.0000799}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1439564469}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 741.4399, y: 7.248599}
+  m_SizeDelta: {x: 579.03, y: 579.03}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &97650095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97650093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: ac923388d788df643a1b9df66eb44f5a, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &97650096
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 97650093}
+  m_CullTransparentMesh: 1
 --- !u!1 &123955483
 GameObject:
   m_ObjectHideFlags: 0
@@ -25281,14 +25352,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
-  - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &143639580
 AudioSource:
   m_ObjectHideFlags: 0
@@ -25415,7 +25484,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 143639578}
   canvas: {fileID: 790437654}
   legendaText: {fileID: 1177122317}
@@ -25425,7 +25493,6 @@ MonoBehaviour:
   - Frutas
   - Geladeira
   - Panela
-  - Talheres
 --- !u!222 &143639583
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35343,14 +35410,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &197324786
 AudioSource:
   m_ObjectHideFlags: 0
@@ -35476,7 +35541,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 197324789}
   canvas: {fileID: 1439564468}
@@ -35486,7 +35550,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!114 &197324789
 MonoBehaviour:
@@ -35813,7 +35876,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menina com batedeira
+  m_text: Menina cozinhando bolo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8dcf07727298e3b4cba39fa5b2f77001, type: 2}
   m_sharedMaterial: {fileID: 7745944612626235962, guid: 8dcf07727298e3b4cba39fa5b2f77001, type: 2}
@@ -35965,14 +36028,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &227381457
 AudioSource:
   m_ObjectHideFlags: 0
@@ -36098,7 +36159,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 227381455}
   canvas: {fileID: 1439564468}
@@ -36108,7 +36168,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &227381460
 CanvasRenderer:
@@ -85258,14 +85317,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
-  - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &371304952
 AudioSource:
   m_ObjectHideFlags: 0
@@ -85392,7 +85449,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 371304950}
   canvas: {fileID: 790437654}
   legendaText: {fileID: 1177122317}
@@ -85402,7 +85458,6 @@ MonoBehaviour:
   - Frutas
   - Geladeira
   - Panela
-  - Talheres
 --- !u!222 &371304955
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -90516,7 +90571,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 401682366}
   canvas: {fileID: 578938010}
@@ -90526,7 +90580,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!114 &401682366
 MonoBehaviour:
@@ -90585,14 +90638,12 @@ MonoBehaviour:
   - {fileID: 401682366}
   images:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
@@ -95516,14 +95567,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &417907794
 AudioSource:
@@ -95650,7 +95699,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 417907792}
   canvas: {fileID: 735278758}
@@ -95660,7 +95708,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &417907797
 CanvasRenderer:
@@ -125504,14 +125551,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &531375544
 AudioSource:
   m_ObjectHideFlags: 0
@@ -125637,7 +125682,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 531375542}
   canvas: {fileID: 1439564468}
@@ -125647,7 +125691,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &531375547
 CanvasRenderer:
@@ -135429,14 +135472,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &551803718
 AudioSource:
@@ -135563,7 +135604,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 551803721}
   canvas: {fileID: 735278758}
@@ -135573,7 +135613,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!114 &551803721
 MonoBehaviour:
@@ -140668,9 +140707,9 @@ RectTransform:
   - {fileID: 401682361}
   - {fileID: 1946162793}
   - {fileID: 1119345361}
-  - {fileID: 513479343}
-  - {fileID: 1519799712}
   - {fileID: 1590326167}
+  - {fileID: 1519799712}
+  - {fileID: 513479343}
   - {fileID: 586506339}
   - {fileID: 2047702317}
   - {fileID: 629726085}
@@ -170864,7 +170903,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 706602937}
   canvas: {fileID: 578938010}
@@ -170874,7 +170912,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &706602942
 CanvasRenderer:
@@ -170922,14 +170959,12 @@ MonoBehaviour:
   - {fileID: 401682366}
   images:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
@@ -170998,7 +171033,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 55bf36a3ead2b664c861d722bf3f3305, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ac4a788e7f7e41a4295641686847ad15, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -171552,7 +171587,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 731759770}
   canvas: {fileID: 578938010}
@@ -171562,7 +171596,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &731759775
 CanvasRenderer:
@@ -171610,14 +171643,12 @@ MonoBehaviour:
   - {fileID: 401682366}
   images:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
@@ -230979,14 +231010,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &892356795
 AudioSource:
   m_ObjectHideFlags: 0
@@ -231112,7 +231141,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 892356798}
   canvas: {fileID: 1550613532}
@@ -231122,7 +231150,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!114 &892356798
 MonoBehaviour:
@@ -231402,14 +231429,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
-  - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &910878717
 AudioSource:
   m_ObjectHideFlags: 0
@@ -231536,7 +231561,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 910878715}
   canvas: {fileID: 790437654}
   legendaText: {fileID: 1177122317}
@@ -231546,7 +231570,6 @@ MonoBehaviour:
   - Frutas
   - Geladeira
   - Panela
-  - Talheres
 --- !u!222 &910878720
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -309668,14 +309691,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &1148477550
 AudioSource:
   m_ObjectHideFlags: 0
@@ -309801,7 +309822,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1148477548}
   canvas: {fileID: 1550613532}
@@ -309811,7 +309831,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1148477553
 CanvasRenderer:
@@ -309914,14 +309933,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &1150895919
 AudioSource:
@@ -310048,7 +310065,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1150895917}
   canvas: {fileID: 735278758}
@@ -310058,7 +310074,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1150895922
 CanvasRenderer:
@@ -320002,14 +320017,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &1176473704
 AudioSource:
   m_ObjectHideFlags: 0
@@ -320135,7 +320148,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1176473702}
   canvas: {fileID: 1439564468}
@@ -320145,7 +320157,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1176473707
 CanvasRenderer:
@@ -389225,14 +389236,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
 --- !u!82 &1376383167
 AudioSource:
   m_ObjectHideFlags: 0
@@ -389358,7 +389367,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1376383165}
   canvas: {fileID: 1550613532}
@@ -389368,7 +389376,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1376383170
 CanvasRenderer:
@@ -418858,6 +418865,7 @@ RectTransform:
   - {fileID: 23122533}
   - {fileID: 1605220108}
   - {fileID: 1877402540}
+  - {fileID: 97650094}
   - {fileID: 1522447071}
   - {fileID: 1176473708}
   - {fileID: 531375548}
@@ -454360,14 +454368,12 @@ MonoBehaviour:
   - {fileID: 401682366}
   images:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
@@ -454497,7 +454503,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1608131797}
   canvas: {fileID: 578938010}
@@ -454507,7 +454512,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1608131802
 CanvasRenderer:
@@ -454690,14 +454694,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
-  - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &1620740984
 AudioSource:
   m_ObjectHideFlags: 0
@@ -454824,7 +454826,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
   - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
-  - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1620740987}
   canvas: {fileID: 790437654}
   legendaText: {fileID: 1177122317}
@@ -454834,7 +454835,6 @@ MonoBehaviour:
   - Frutas
   - Geladeira
   - Panela
-  - Talheres
 --- !u!114 &1620740987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459920,14 +459920,12 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 297c3775553ece342888f043a4ef31e9, type: 3}
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   audioClips:
   - {fileID: 8300000, guid: c0b5a301e24211047bb76ce7933b4cce, type: 3}
   - {fileID: 8300000, guid: b76cca49177537c4e87dda88555be212, type: 3}
   - {fileID: 8300000, guid: 118f436bcd46ea5468f9d1b1de453358, type: 3}
   - {fileID: 8300000, guid: 41a03d2c468cdb047b50e0168c372c7b, type: 3}
-  - {fileID: 8300000, guid: 013a31ee0134261409c9005b47da165a, type: 3}
   - {fileID: 8300000, guid: 3b48b5a27e1cc8c4abd083e341779648, type: 3}
 --- !u!82 &1642603525
 AudioSource:
@@ -460054,7 +460052,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec42b414d71c4ee47971354ff5cdf46d, type: 3}
   - {fileID: 21300000, guid: 3cf8a280d0bd0f349b0f378babf6f73d, type: 3}
   - {fileID: 21300000, guid: bd37a6af3ca6bac4183de42e84a4c4f7, type: 3}
-  - {fileID: 21300000, guid: fefce9acc1dad1e4b9af6db4a9d9a7fa, type: 3}
   - {fileID: 21300000, guid: 88753f0cef5faec43858479e4bb8886f, type: 3}
   imageComponent: {fileID: 1642603523}
   canvas: {fileID: 735278758}
@@ -460064,7 +460061,6 @@ MonoBehaviour:
   - "Fog\xE3o"
   - Frutas
   - Geladeira
-  - Panela
   - Talheres
 --- !u!222 &1642603528
 CanvasRenderer:
@@ -509707,7 +509703,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Menina com panela
+  m_text: Menina cozinhando
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8dcf07727298e3b4cba39fa5b2f77001, type: 2}
   m_sharedMaterial: {fileID: 7745944612626235962, guid: 8dcf07727298e3b4cba39fa5b2f77001, type: 2}

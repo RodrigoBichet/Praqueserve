@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: LUDUS
-  productName: Praqueserve
+  productName: Para que serve?
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0, g: 0.50980395, b: 0.7058824, a: 1}
@@ -283,7 +283,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: f2a80425f4d40534492685866bacb52e, type: 3}
+      m_Icon: {fileID: 2800000, guid: 386c96d5adda5f14baae907412360d70, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
