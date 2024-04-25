@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement; // Adicionando o namespace para gerenciamento de cena
 
 public class ButtonTutorial : MonoBehaviour
 {
@@ -11,6 +12,9 @@ public class ButtonTutorial : MonoBehaviour
     public GameObject blackSquareVideo;
     public GameObject buttonBackVideo;
 
+    private AudioManager audioManager; // Referência para o AudioManager na cena Menu
+
+    private bool videoPlaying = false; // Variável para controlar se o vídeo está tocando
 
     void Start()
     {
@@ -22,10 +26,19 @@ public class ButtonTutorial : MonoBehaviour
         buttonBackVideo.gameObject.SetActive(false);
 
         botao.onClick.AddListener(AtivarVideoPlayer);
+
+        // Procura o AudioManager na cena Menu
+        audioManager = FindObjectOfType<AudioManager>();
     }
 
     void AtivarVideoPlayer()
     {
+        // Pausa a música de fundo se o AudioManager for encontrado
+        if (audioManager != null)
+        {
+            audioManager.ToggleMute();
+        }
+
         videoPlayer.gameObject.SetActive(true);
         screenObject.SetActive(true);
         whiteSquareVideo.SetActive(true);
@@ -33,6 +46,8 @@ public class ButtonTutorial : MonoBehaviour
         buttonBackVideo.SetActive(true);
 
         videoPlayer.Play();
+
+        videoPlaying = true; // Marca que o vídeo está tocando
     }
 
     void OnVideoEnd(VideoPlayer vp)
@@ -44,5 +59,21 @@ public class ButtonTutorial : MonoBehaviour
         blackSquareVideo.SetActive(false);
         buttonBackVideo.SetActive(false);
 
+        // Retoma a música de fundo apenas se o vídeo estiver tocando e o AudioManager for encontrado
+        if (videoPlaying && audioManager != null)
+        {
+            audioManager.ToggleMute();
+        }
+
+        videoPlaying = false; // Marca que o vídeo não está mais tocando
+    }
+
+    void OnDestroy()
+    {
+        // Se o script for destruído (como durante a troca de cena), retoma a música de fundo apenas se o vídeo estiver tocando e o AudioManager for encontrado
+        if (videoPlaying && audioManager != null)
+        {
+            audioManager.ToggleMute();
+        }
     }
 }
