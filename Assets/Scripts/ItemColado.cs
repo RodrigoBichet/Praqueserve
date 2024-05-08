@@ -4,46 +4,53 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI; // Adicionando para acessar componentes de UI
 
 public class ItemColado : MonoBehaviour, IDropHandler
 {
-
     public AudioSource soundCongratulation;
     public AudioSource soundWrong;
+    public GameObject imagemAtivada; // Referência à imagem ativada
+    public GameObject imagemDesativada; // Referência à imagem desativada
 
-    // private void Awake()
-    // {
-    //     soundCongratulation = GetComponent<AudioSource>();
-    //     soundWrong = GetComponent<AudioSource>();
-    // }
     public void OnDrop(PointerEventData eventData)
     {
-
         if (eventData.pointerDrag != null)
         {
-            //Debug.Log("Ondrop do objeto");
-            //!verifica se as tags coincidem, 
-            //!se sim, ele passsa para o codigo de colagem
             if (eventData.pointerDrag.gameObject.tag.Equals(gameObject.tag))
             {
-                //!código de colagem
-                eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
+                // Verifica se a referência à imagem ativada não é nula
+                if (imagemAtivada != null)
+                {
+                    // Desativa a imagem inicial
+                    gameObject.SetActive(false);
+
+                    // Ativa a imagem substituta
+                    imagemAtivada.SetActive(true);
+
+                    // Obtém a RectTransform da imagem ativada
+                    RectTransform rtAtivada = imagemAtivada.GetComponent<Image>().rectTransform;
+
+                    // Obtém a RectTransform do item arrastado
+                    RectTransform rtItemArrastado = eventData.pointerDrag.GetComponent<Image>().rectTransform;
+
+                    // Centraliza o item arrastado na imagem ativada
+                    rtItemArrastado.anchoredPosition = rtAtivada.anchoredPosition;
+                }
+                else
+                {
+                    Debug.LogError("A referência à imagem ativada é nula!");
+                }
 
                 DragDrop.coloucerto = true;
-                //Debug.Log("ITEM COLADO COLOUCERTO: " + DragDrop.coloucerto);
                 PlayerPrefs.SetInt("faseAtual", SceneManager.GetActiveScene().buildIndex);
 
                 soundCongratulation.Play();
             }
-
             else
             {
                 soundWrong.Play();
             }
-
-
         }
     }
-
-
 }

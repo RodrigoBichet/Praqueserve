@@ -77,8 +77,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         // Atualizar a legenda ao finalizar o arraste
         AtualizarLegenda(nomeItem);
 
-        // Desativar a legenda após 2 segundos
-        Invoke("DesativarLegenda", 2f);
+        // Desativar a legenda após 1 segundo
+        Invoke("DesativarLegenda", 1f);
     }
 
     private void DesativarLegenda()

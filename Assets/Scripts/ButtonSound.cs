@@ -5,7 +5,7 @@ using TMPro;
 public class BotaoComSom : MonoBehaviour
 {
     public AudioSource somBotao;
-    public GameObject fotoDesativada;
+    //public GameObject fotoDesativada;
     public TMP_Text textoAtivar; // Usando TMP_Text do TextMeshPro
 
     void Start()
@@ -17,12 +17,21 @@ public class BotaoComSom : MonoBehaviour
     void AtivarElementos()
     {
         // Ativa a foto desativada
-        fotoDesativada.SetActive(true);
+        //fotoDesativada.SetActive(true);
 
         // Ativa o texto usando TextMeshPro
         textoAtivar.gameObject.SetActive(true);
 
+
+
         // Toca o som
         somBotao.Play();
+
+        // Desativar a legenda após 3 segundos
+        Invoke("DesativarLegenda", 3f);
+    }
+    private void DesativarLegenda()
+    {
+        textoAtivar.gameObject.SetActive(false);
     }
 }
