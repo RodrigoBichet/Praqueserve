@@ -11,7 +11,7 @@ public class Exit : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false; // Para o editor do Unity
 #else
-            Application.Quit(); // Para as versões compiladas (Windows, Mac, Linux)
+        Application.Quit(); // Para as versões compiladas (Windows, Mac, Linux)
 #endif
     }
 }

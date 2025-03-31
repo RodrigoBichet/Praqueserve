@@ -10,7 +10,7 @@ public class ButtonTutorial : MonoBehaviour
     public GameObject screenObject;
 
 
-    
+
 
     private AudioManager audioManager; // Referência para o AudioManager na cena Menu
 
@@ -22,7 +22,7 @@ public class ButtonTutorial : MonoBehaviour
         videoPlayer.gameObject.SetActive(false);
         screenObject.SetActive(false);
 
-       
+
 
         botao.onClick.AddListener(AtivarVideoPlayer);
 
@@ -41,7 +41,7 @@ public class ButtonTutorial : MonoBehaviour
         videoPlayer.gameObject.SetActive(true);
         screenObject.SetActive(true);
 
-       
+
 
         videoPlayer.Play();
 
@@ -54,7 +54,7 @@ public class ButtonTutorial : MonoBehaviour
         videoPlayer.gameObject.SetActive(false);
         screenObject.SetActive(false);
 
-     
+
 
         // Retoma a música de fundo apenas se o vídeo estiver tocando e o AudioManager for encontrado
         if (videoPlaying && audioManager != null)
