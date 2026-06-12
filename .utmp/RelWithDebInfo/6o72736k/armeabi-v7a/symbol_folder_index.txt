@@ -1,0 +1,1 @@
+C:\UNITY\ProjetosGithub\Paraqueserve1.1\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\6o72736k\obj\armeabi-v7a

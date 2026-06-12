@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 0
@@ -299,6 +295,7 @@ GameObject:
   - component: {fileID: 923015253}
   - component: {fileID: 923015255}
   - component: {fileID: 923015254}
+  - component: {fileID: 923015256}
   m_Layer: 0
   m_Name: Title
   m_TagString: Untagged
@@ -363,6 +360,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 923015252}
   m_CullTransparentMesh: 1
+--- !u!114 &923015256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 923015252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc96b6fb103d8b40a56df8bc56163c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThemeSpriteApplier
+  spriteRole: 30
 --- !u!1 &925903849
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,8 +500,29 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1075846156657023663, guid: 536b6b674415613429f6df08388e23f9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1068130658}
   m_SourcePrefab: {fileID: 100100000, guid: 536b6b674415613429f6df08388e23f9, type: 3}
+--- !u!1 &1068130657 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1075846156657023663, guid: 536b6b674415613429f6df08388e23f9, type: 3}
+  m_PrefabInstance: {fileID: 1068130656}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1068130658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068130657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc96b6fb103d8b40a56df8bc56163c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThemeSpriteApplier
+  spriteRole: 58
 --- !u!1 &1317373332
 GameObject:
   m_ObjectHideFlags: 0
@@ -588,6 +619,7 @@ GameObject:
   - component: {fileID: 1488236066}
   - component: {fileID: 1488236065}
   - component: {fileID: 1488236064}
+  - component: {fileID: 1488236067}
   m_Layer: 5
   m_Name: ButtonBack
   m_TagString: Untagged
@@ -636,7 +668,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78431374}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -708,6 +740,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488236062}
   m_CullTransparentMesh: 1
+--- !u!114 &1488236067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488236062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc96b6fb103d8b40a56df8bc56163c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThemeSpriteApplier
+  spriteRole: 32
 --- !u!1 &1617795417
 GameObject:
   m_ObjectHideFlags: 0
@@ -721,6 +766,7 @@ GameObject:
   - component: {fileID: 1617795421}
   - component: {fileID: 1617795420}
   - component: {fileID: 1617795419}
+  - component: {fileID: 1617795423}
   m_Layer: 0
   m_Name: ButtonStart
   m_TagString: Untagged
@@ -762,6 +808,9 @@ MonoBehaviour:
   botao: {fileID: 1617795420}
   videoPlayer: {fileID: 1317373334}
   screenObject: {fileID: 748401039}
+  border: {fileID: 1925956360}
+  tutorialNormal: {fileID: 32900000, guid: 019197f052a642844b6f3469bc5f6641, type: 3}
+  tutorialAutista: {fileID: 32900000, guid: 2c21608cf7a0a3a49ac0849af482f9dc, type: 3}
 --- !u!114 &1617795420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,7 +833,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.99215686, g: 0.77254903, b: 0.47058824, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0.78431374}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -856,6 +905,94 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1617795417}
   m_CullTransparentMesh: 1
+--- !u!114 &1617795423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1617795417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc96b6fb103d8b40a56df8bc56163c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThemeSpriteApplier
+  spriteRole: 31
+--- !u!1 &1925956360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1925956363}
+  - component: {fileID: 1925956362}
+  - component: {fileID: 1925956361}
+  m_Layer: 5
+  m_Name: Border
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1925956361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925956360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1925956362
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925956360}
+  m_CullTransparentMesh: 1
+--- !u!224 &1925956363
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925956360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1955146679}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 40.52, y: 0.28}
+  m_SizeDelta: {x: 1424.39, y: 811.82}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1955146678
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,6 +1026,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2014009241}
+  - {fileID: 1925956363}
   - {fileID: 923015253}
   - {fileID: 1617795418}
   - {fileID: 1488236063}
@@ -987,6 +1125,7 @@ GameObject:
   - component: {fileID: 2014009241}
   - component: {fileID: 2014009243}
   - component: {fileID: 2014009242}
+  - component: {fileID: 2014009244}
   m_Layer: 0
   m_Name: BackgroundSquare
   m_TagString: Untagged
@@ -1051,6 +1190,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2014009240}
   m_CullTransparentMesh: 1
+--- !u!114 &2014009244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2014009240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc96b6fb103d8b40a56df8bc56163c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ThemeSpriteApplier
+  spriteRole: 4
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -24,7 +24,7 @@ public class SceneControl : MonoBehaviour
     public void IrParaProximaCenaAleatoria()
     {
         // Se todas as cenas aleatórias foram visitadas, vá para a cena final
-        if (cenasVisitadas >= 5)
+        if (cenasVisitadas >= 4)
         {
             cenaFinal.SetActive(true);
             DesativarTodasCenas();
