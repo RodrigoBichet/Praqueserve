@@ -181,4 +181,35 @@ public class ThemeData : ScriptableObject
 
     public Sprite interrogacaoLoader;
     public Vector2 interrogacaoLoaderSize;
+
+    public Sprite backgroundSecond;
+    public Vector2 backgroundSecondSize;
+
+    public Sprite audioGame;
+    public Vector2 audioGameSize;
+
+    public Sprite fundoGame;
+    public Vector2 fundoGameSize;
+
+    public Sprite retrocederTutorial;
+    public Vector2 retrocederTutorialSize;
+
+    public Sprite pausarTurorial;
+    public Vector2 pausarTurorialSize;
+
+    public Sprite avancarTutorial;
+    public Vector2 avancarTutorialSize;
+
+    public Sprite backgroundSliderTutorial;
+    public Vector2 backgroundSliderTutorialSize;
+
+    public Sprite fillTutorial;
+    public Vector2 fillTutorialSize;
+
+    public Sprite handleTutorial;
+    public Vector2 handleTutorialSize;
+
+    public Sprite voltarInicial;
+    public Vector2 voltarInicialSize;
 }
+

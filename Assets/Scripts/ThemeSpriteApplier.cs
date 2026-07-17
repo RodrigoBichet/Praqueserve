@@ -1,7 +1,7 @@
-    using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(Image))]   
+[RequireComponent(typeof(Image))]
 public class ThemeSpriteApplier : MonoBehaviour
 {
     //ADICIONAR AQUI
@@ -65,7 +65,17 @@ public class ThemeSpriteApplier : MonoBehaviour
         titleConfirm,
         iconConfirm,
         iconCancel,
-        interrogacaoLoader
+        interrogacaoLoader,
+        backgroundSecond,
+        audioGame,
+        fundoGame,
+        retrocederTutorial,
+        pausarTurorial,
+        avancarTutorial,
+        backgroundSliderTutorial,
+        fillTutorial,
+        handleTutorial,
+        voltarInicial,
 
 
     }
@@ -396,7 +406,58 @@ public class ThemeSpriteApplier : MonoBehaviour
                 rt.sizeDelta = theme.interrogacaoLoaderSize;
                 break;
 
+            case SpriteRole.backgroundSecond:
+                image.sprite = theme.backgroundSecond;
+                rt.sizeDelta = theme.backgroundSecondSize;
+                break;
+
+            case SpriteRole.audioGame:
+                image.sprite = theme.audioGame;
+                rt.sizeDelta = theme.audioGameSize;
+                break;
+
+            case SpriteRole.fundoGame:
+                image.sprite = theme.fundoGame;
+                rt.sizeDelta = theme.fundoGameSize;
+                break;
+
+            case SpriteRole.retrocederTutorial:
+                image.sprite = theme.retrocederTutorial;
+                rt.sizeDelta = theme.retrocederTutorialSize;
+                break;
+
+            case SpriteRole.pausarTurorial:
+                image.sprite = theme.pausarTurorial;
+                rt.sizeDelta = theme.pausarTurorialSize;
+                break;
+
+            case SpriteRole.avancarTutorial:
+                image.sprite = theme.avancarTutorial;
+                rt.sizeDelta = theme.avancarTutorialSize;
+                break;
+
+            case SpriteRole.backgroundSliderTutorial:
+                image.sprite = theme.backgroundSliderTutorial;
+                rt.sizeDelta = theme.backgroundSliderTutorialSize;
+                break;
+
+            case SpriteRole.fillTutorial:
+                image.sprite = theme.fillTutorial;
+                rt.sizeDelta = theme.fillTutorialSize;
+                break;
+
+            case SpriteRole.handleTutorial:
+                image.sprite = theme.handleTutorial;
+                rt.sizeDelta = theme.handleTutorialSize;
+                break;
+
+            case SpriteRole.voltarInicial:
+                image.sprite = theme.voltarInicial;
+                rt.sizeDelta = theme.voltarInicialSize;
+                break;
+
         }
     }
 
 }
+
