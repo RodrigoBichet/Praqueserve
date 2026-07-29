@@ -90,7 +90,7 @@ MonoBehaviour:
   webSize: {x: 162.24, y: 162.24}
   instagram: {fileID: 21300000, guid: 336fca8d6f9d275478f8faa2edaee508, type: 3}
   instagramSize: {x: 138.12, y: 138.12}
-  interrogacaoParaqueserve: {fileID: 21300000, guid: 64cea449ff472f2428cce9146464720d, type: 3}
+  interrogacaoParaqueserve: {fileID: 21300000, guid: 4941167c68da82745a55bb1231eb5599, type: 3}
   interrogacaoParaqueserveSize: {x: 298.21, y: 296.6}
   estrelaEsquerda: {fileID: 21300000, guid: 0dc234ec7bf49ed438bb1a0d99ed88b9, type: 3}
   estrelaEsquerdaSize: {x: 487.6, y: 487.6}
@@ -108,7 +108,7 @@ MonoBehaviour:
   conjuntoHigieneSize: {x: 431.93, y: 490.77}
   fundoAudio: {fileID: -6753202841009803674, guid: 804ddc710f8e0f94aa1f1d1aae9834ca, type: 3}
   fundoAudioSize: {x: 485.89, y: 714.65}
-  fundoItem: {fileID: 21300000, guid: 096f9a7c2abe28e45a640a19a1504492, type: 3}
+  fundoItem: {fileID: 21300000, guid: c30732bdaea19914c9159de097e864d4, type: 3}
   fundoItemSize: {x: 279.25, y: 279.25}
   erradoSelectLevel: {fileID: 21300000, guid: aaa4dc4e0faac0641b021ce4abb8218b, type: 3}
   erradoSelectLevelSize: {x: 110, y: 110}
@@ -116,8 +116,8 @@ MonoBehaviour:
   quaseSelectLevelSize: {x: 110, y: 110}
   certoSelectLevel: {fileID: 21300000, guid: c4c0fdf8b39d9054c83d62ee289f6773, type: 3}
   certoSelectLevelSize: {x: 140, y: 140}
-  paraqueserveDesativado: {fileID: -7118229947742921975, guid: 11962fc188f0062459538b176d9c6568, type: 3}
-  paraqueserveDesativadoSize: {x: 319.15, y: 317.35}
+  paraqueserveDesativado: {fileID: 21300000, guid: 4941167c68da82745a55bb1231eb5599, type: 3}
+  paraqueserveDesativadoSize: {x: 298.21, y: 296.6}
   tema: {fileID: 21300000, guid: 1736b59fc2348cd4282fa3da129611d0, type: 3}
   temaSize: {x: 390.37, y: 153.66}
   handleVolume: {fileID: 21300000, guid: 77931ba5147d2fc4da3a7bd5693f02ae, type: 3}
@@ -130,11 +130,11 @@ MonoBehaviour:
   iconCancelSize: {x: 246.86, y: 244.3}
   interrogacaoLoader: {fileID: 21300000, guid: 39dd04f5ed75860409b9d368a4429897, type: 3}
   interrogacaoLoaderSize: {x: 397.9372, y: 397.9372}
-  backgroundSecond: {fileID: 21300000, guid: 7d86b65b73ee4b0418295705d15149c0, type: 3}
+  backgroundSecond: {fileID: 21300000, guid: b63df496ae7551c46831825797c389c4, type: 3}
   backgroundSecondSize: {x: 1465.78, y: 609.8}
-  audioGame: {fileID: 21300000, guid: f1aebc6fe4df18e49a500383be3717cf, type: 3}
+  audioGame: {fileID: 21300000, guid: 113e4bf352e9cae42b81b64af7384f90, type: 3}
   audioGameSize: {x: 154.85, y: 154.85}
-  fundoGame: {fileID: 21300000, guid: a6f460cde0ea7c847b846748dcbb5d14, type: 3}
+  fundoGame: {fileID: 21300000, guid: 7b205eec40137a948b383ecae63efe59, type: 3}
   fundoGameSize: {x: 485.89, y: 714.65}
   retrocederTutorial: {fileID: 21300000, guid: cdef9404e953b2b4fa7d785abc9cf442, type: 3}
   retrocederTutorialSize: {x: 93.31, y: 93.31}
